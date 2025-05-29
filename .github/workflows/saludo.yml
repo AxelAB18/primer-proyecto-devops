@@ -1,0 +1,10 @@
+name: Mi primer Action
+
+on: [push]
+
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Decir Hola Mundo
+        run: echo "¡Hola Axel! Tu primer GitHub Action se ejecutó con éxito 🚀"
